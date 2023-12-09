@@ -24,6 +24,8 @@ Briefly summarize the regex you will be describing and what you will explain. In
 
 ### Anchors
 
+An Anchor is a Regex Component that is used to specify the postion in the string that should be matched. A carot ^ is an anchor at the begining ^efg whould match anything with that starts with efg. A Dollar Sign at the end of efg $ would match anything that ends with efg.
+
 ### Quantifiers
 
 ### OR Operator
