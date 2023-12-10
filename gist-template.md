@@ -27,7 +27,12 @@ Briefly summarize the regex you will be describing and what you will explain. In
 An Anchor is a Regex Component that is used to specify the postion in the string that should be matched. A carot ^ is an anchor at the begining ^efg whould match anything with that starts with efg. A Dollar Sign at the end of efg $ would match anything that ends with efg. 
 
 ### Quantifiers
-
+    * Asterisk: Matches 0 or more occurrences of the preceding element. For example, ab*c would match "ac," "abc," "abbc," and so on.
+    + (Plus): Matches 1 or more occurrences of the preceding element. For instance, ab+c would match "abc," "abbc," and so on, but not "ac."
+    ? (Question Mark): Matches 0 or 1 occurrence of the preceding element. For example, ab?c would match "ac" and "abc," but not "abbc."
+    {n}: Matches exactly n occurrences of the preceding element. For instance, a{3} would match "aaa."
+    {n,}: Matches n or more occurrences of the preceding element. For example, a{2,} would match "aa," "aaa," and so on.
+    {n,m}: Matches between n and m occurrences of the preceding element. For instance, a{2,4} would match "aa," "aaa," and "aaaa."
 ### OR Operator
 
 ### Character Classes
