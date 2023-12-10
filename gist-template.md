@@ -21,10 +21,14 @@ Briefly summarize the regex you will be describing and what you will explain. In
 - [Look-ahead and Look-behind](#look-ahead-and-look-behind)
 
 ## Regex Components
+    Too be finished
+
 
 ### Anchors
 
-An Anchor is a Regex Component that is used to specify the postion in the string that should be matched. A carot ^ is an anchor at the begining ^efg whould match anything with that starts with efg. A Dollar Sign at the end of efg $ would match anything that ends with efg. 
+    Caret (^): The caret anchor asserts the start of a line. When used at the beginning of a regex pattern, it indicates that the following pattern should match only at the beginning of the string. For example, the regex ^abc would match a string that starts with "abc."
+
+    Dollar Sign ($): The dollar sign anchor asserts the end of a line. When used at the end of a regex pattern, it indicates that the preceding pattern should match only at the end of the string. For instance, the regex xyz$ would match a string that ends with "xyz."
 
 ### Quantifiers
     * Asterisk: Matches 0 or more occurrences of the preceding element. For example, ab*c would match "ac," "abc," "abbc," and so on.
@@ -46,7 +50,7 @@ An Anchor is a Regex Component that is used to specify the postion in the string
 ### Greedy and Lazy Match
 
 ### Boundaries
-There is also the more advanced Word Boundary. `\bword\b` matches the whole word "word" itself. There is also the start or end of a word `\bword` will match "word" only at the begining of a word. `word\b` will match "word" at the end of a word. Also Excluding Word `\Bword\` which matches the "word" itself and not 
+    There is also the more advanced Word Boundary. `\bword\b` matches the whole word "word" itself. There is also the start or end of a word `\bword` will match "word" only at the begining of a word. `word\b` will match "word" at the end of a word. Also Excluding Word `\Bword\` which matches the "word" itself and not 
 ### Back-references
 
 ### Look-ahead and Look-behind
