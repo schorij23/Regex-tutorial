@@ -31,8 +31,8 @@ Caret (^): The caret anchor asserts the start of a line. When used at the beginn
 Dollar Sign `$`: The dollar sign anchor asserts the end of a line. When used at the end of a regex pattern, it indicates that the preceding pattern should match only at the end of the string. For instance, the regex xyz$ would match a string that ends with "xyz."
 
 ### Quantifiers
-* Asterisk: Matches 0 or more occurrences of the preceding element. For example, ab*c would match "ac," "abc," "abbc," and so on.
-+ (Plus): Matches 1 or more occurrences of the preceding element. For instance, ab+c would match "abc," "abbc," and so on, but not "ac."
+Asterisk `*`: Matches 0 or more occurrences of the preceding element. For example, ab*c would match "ac," "abc," "abbc," and so on.
+Plus `+`: Matches 1 or more occurrences of the preceding element. For instance, ab+c would match "abc," "abbc," and so on, but not "ac."
 ? (Question Mark): Matches 0 or 1 occurrence of the preceding element. For example, ab?c would match "ac" and "abc," but not "abbc."
 {n}: Matches exactly n occurrences of the preceding element. For instance, a{3} would match "aaa."
 {n,}: Matches n or more occurrences of the preceding element. For example, a{2,} would match "aa," "aaa," and so on.
